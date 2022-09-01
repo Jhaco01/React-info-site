@@ -1,8 +1,9 @@
 import React from "react";
+import "../style/MainContent.css";
 
-export const MainContent = () => {
+export const MainContent = ({dark}) => {
     return(
-        <section>
+        <section className={`${dark}`} >
             <h1 className="title"> Fun facts about React </h1>
             <ul>
                 <li>Was first released in 2013</li>
