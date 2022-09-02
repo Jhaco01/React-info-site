@@ -1,0 +1,40 @@
+section{  
+    height: 100%;
+    padding-top: 20px;
+    background-image: url('../img/logo102.jpg');  
+    background-repeat: no-repeat;
+    background-position: 300% 50%;  
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.20);  
+}
+
+section.Dark{
+    background-color: #15152b;
+}
+  
+  .title{
+    font-size: 40px;
+    margin-left: 25px;
+  }
+  
+  ul{
+    position: absolute;
+  }
+  
+  ul li{
+    margin-left: 30px;
+    line-height: 40px;
+    padding-left: 15px;
+    list-style: none;  
+  }
+  
+  ul li::before{
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #66e0ff;
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    font-size: 35px;
+    position: relative;
+    top: 7px;
+  }
